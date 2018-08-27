@@ -6,64 +6,53 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="panton">
+    <link rel="shortcut icon" href="imgs/favicon.ico" />
 
-    <title>Exemplo Bootstrap</title>
+    <title>Gamer Point</title>
 
     <!-- Bootstrap core CSS -->
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
   </head>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+<nav class="navbar navbar-expand-lg navbar-light bg-light" style="font-family: century gothic; font-size: 30px;">
             <img src="imgs/logo.png">
+            <a class="navbar-brand" style="font-size: 35px; font-family:Rockwell;" href="index.html">Gamer Point</a>
+            
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
-                
-                <li class="nav-item active">
-                  <a class="nav-link" href="Inicio.html">Inicio<span class="sr-only">(current)</span></a>
-                </li>
 
                 <li class="nav-item">
-                  <a class="nav-link" href="cadastro.html">Cadastro</a>
+                  <a class="nav-link" href="lancamentos.html">Lançamentos</a>
                 </li>
                 
                 <li class="nav-item">
-                  <a class="nav-link" href="login.html">Login</a>
-                </li>
-                
-                <li class="nav-item">
-                  <a class="nav-link" href="carrinho.html">Carrinho</a>
-                </li>
-
-                <li class="nav-item">
-                  <a class="nav-link" href="Pagamento.html">Pagamento</a>
+                  <a class="nav-link" href="campeonatos.html">Campeonatos</a>
                 </li>
                 
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Produtos
+                    Noticias
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="jogos.html">Jogos</a>
-                    <a class="dropdown-item" href="assinaturas.html">Assinaturas</a>
-                    <a class="dropdown-item" href="consoles.html">Consoles</a>
+                    <a class="dropdown-item" href="acao.html">Ação e Aventura</a>
+                    <a class="dropdown-item" href="tiro.html">Tiro</a>
                   </div>
                 </li>
               </ul>
               
-              <a class="btn mx-2 btn-dark" data-toggle="modal" data-target="#exampleModal">
+              <a class="btn mx-2 btn-dark btn-lg" data-toggle="modal" data-target="#buttonModal">
               
                 <i class="fas fa-user" style="color:white;"></i>
 
               </a>
               
               <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Search">
-                <button class="btn btn-dark my-2 my-sm-0" type="submit">Buscar</button>
+                <input class="form-control btn-lg mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Search">
+                <button class="btn btn-dark btn-lg my-2 my-sm-0" type="submit">Buscar</button>
               </form>
             </div>
         </nav>
@@ -79,11 +68,12 @@
       <div class="col-3">
 
         <div class="card mx-4 my-4" style="width:25rem;height: 27rem;background-color: #14141f;" >
-            <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+            <img class="card-img-top" src="imgs/anthem.jpg" alt="Card image cap">
             <div class="card-body" style="color:white;">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary btn-block">Visualizar</a>
+              <p class="card-text"><small class="text-muted">20/08 - 10h07 </small></p>
+              <h5 class="card-title">Anthem será lançado em 2019</h5>
+              <p class="card-text">Manda mais que tá pouco? A BioWare está te ouvindo e, aos poucos, abre o bico sobre a aventura online intergalática de RPG.</p>
+              <a href="anthem.html" class="btn btn-primary btn-block">Visualizar</a>
             </div>
             <div class="card-footer">
               <small class="text-muted">Adicionado por Henrique Palgom</small>
@@ -102,51 +92,78 @@
     <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
   </ol>
+  
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="imgs/reddead.jpg" alt="First slide">
+      <a href="reddead.html"><img class="d-block w-100" src="imgs/reddead.jpg" alt="First slide"></a>
       <div class="carousel-caption d-none d-md-block">
-      <p>...</p>
+        <div class="card">
+          <div class="card-body">
+            <h3 style="color: black;font-family:rockwell;">TAKE-TWO DIZ QUE RED DEAD REDEMPTION 2 VAI 'REDEFINIR' OS GAMES</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <a href="anthem.html"><img class="d-block w-100" src="imgs/anthem.jpg" alt="Second slide"></a>
+      <div class="carousel-caption d-none d-md-block">
+        <div class="card">
+          <div class="card-body">
+            <h3 style="color: black;font-family:rockwell;">Anthem tem lançamento previsto para 2019</h3>
+          </div>
+        </div>
   </div>
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="imgs/anthem.jpg" alt="Second slide">
+      <a href="bf5.html"><img class="d-block w-100" src="imgs/bf5.jpg" alt="Third slide"></a>
       <div class="carousel-caption d-none d-md-block">
-      <p>...</p>
-  </div>
+        <div class="card">
+          <div class="card-body">
+            <h3 style="color: black;font-family:rockwell;">Battlefield V inova com a engine Frostbite</h3>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="imgs/bf5.jpg" alt="Third slide">
+      <a href="bo4.html"><img class="d-block w-100" src="imgs/bo4.jpg" alt="Third slide"></a>
       <div class="carousel-caption d-none d-md-block">
-      <p>...</p>
-  </div>
+        <div class="card">
+          <div class="card-body">
+            <h3 style="color: black;font-family:rockwell;">Modo Battle Royale será a maior inovação no game</h3>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="imgs/bo4.jpg" alt="Third slide">
+      <a href="rainbow.html"><img class="d-block w-100" src="imgs/rainbow.jpg" alt="Third slide"></a>
       <div class="carousel-caption d-none d-md-block">
-      <4</h5>
-    <p>...</p>
-    </div>
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="imgs/rainbow.jpg" alt="Third slide">
-      <div class="carousel-caption d-none d-md-block">
-      <p>...</p>
-  </div>
+        <div class="card">
+          <div class="card-body">
+            <h3 style="color: black;font-family:rockwell;">Novos Operadores "Clash" e "Maverick" chegam em Setembro!</h3>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="imgs/tlou2.jpg" alt="Third slide">
+      <a href="tlou.html"><img class="d-block w-100" src="imgs/tlou2.jpg" alt="Third slide"></a>
       <div class="carousel-caption d-none d-md-block">
-      <p>...</p>
-  </div>
+        <div class="card">
+          <div class="card-body">
+            <h3 style="color: black;font-family:rockwell;">Lançamento da 2ª edição do jogo deixa fãs eufóricos</h3>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="imgs/cs.jpg" alt="Third slide">
+      <a href="csgo.html"><img class="d-block w-100" src="imgs/cs.jpg" alt="Third slide"></a>
       <div class="carousel-caption d-none d-md-block">
-      <p>...</p>
-  </div>
+        <div class="card">
+          <div class="card-body">
+            <h3 style="color: black;font-family:rockwell;">Grande Campeonato IEM Katowice de 2019</h3>
+          </div>
+        </div>
+      </div>
     </div>
 
   </div>
@@ -165,12 +182,13 @@
       
       <div class="col-3">
 
-          <div class="card mx-4 my-4" style="width:25rem;height: 27rem;" >
-            <img class="card-img-top" src=".../100px180/" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary btn-block">Go somewhere</a>
+          <div class="card mx-4 my-4" style="width:25rem;height: 27rem;background-color: #14141f;" >
+            <img class="card-img-top" src="imgs/Rainbow.jpg" alt="Card image cap">
+            <div class="card-body"  style="color:white";>
+              <p class="card-text"><small class="text-muted">20/08 - 10h07 </small>
+              <h5 class="card-title">Novos operadores em R6</h5>
+              <p class="card-text">Meverik e Clash são os novos operadores que irão chegar no mês de semtembro para todos os jogadores do Play Station 4, Xbox One e PC</p>
+              <a href="rainbow.html" class="btn btn-primary btn-block">Visualizar</a>
             </div>
             <div class="card-footer">
               <small class="text-muted">Adicionado por Henrique Palgom</small>
@@ -182,32 +200,237 @@
 <div class="container-fluid  col-md-12 my-5">
 
     <div class="row">
-      
+
       <div class="col-3">
         
+        <div class="card text-white mb-3 mx-4" style="max-width: 30rem; background-color:#14141f;">
+            <div class="card-header text-center bg-dark" style="font-family: century gothic;font-size:25px;border-radius: 50px;">
+              <i class="far fa-eye"></i> 
+                Mais Acessados
+            </div>
+          <div class="card-body">
+             <video width="350" height="240" controls>
+          <source src="imgs/bftrailer.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+            <div class="card-body"  style="color:white";>
+              <p class="card-text"><small class="text-muted">20/08 - 10h07 </small></p>
+              <h5 class="card-title">Beta aberta de Battlefield 5 marcada para Setembro</h5>
+              <p class="card-text">
+                      Battlefield 5 será lançado a 19 de Outubro para PC, PS4 e Xbox One, mas poderás ter acesso antecipado a 11 de Outubro através do EA Access e Origin Access.</p>
+              <a href="bf5.html" class="btn btn-primary btn-block">Visualizar</a>
+            </div>
+        </div>
       </div>
+
+      <div class="card text-white mb-3 mx-4" style="max-width: 30rem; background-color:#14141f;">
+          <div class="card-body">
+            <img src="imgs/redtop.jpg">
+            <div class="card-body"  style="color:white";>
+              <p class="card-text"><small class="text-muted">20/08 - 10h07 </small></p>
+              <h5 class="card-title">TAKE-TWO DIZ QUE RED DEAD REDEMPTION 2 VAI 'REDEFINIR' OS GAMES</h5>
+              <p class="card-text">Red Dead Redemption 2 é o primeiro título desenvolvido do zero pela Rockstar para a atual geração de consoles.</p>
+              <a href="reddead.html" class="btn btn-primary btn-block">Visualizar</a>
+            </div>
+        </div>
+      </div>
+
+      <div class="card text-white mb-3 mx-4" style="max-width: 30rem; background-color:#14141f;">
+          <div class="card-body">
+             <video width="350" height="240" controls>
+          <source src="imgs/tloutrailer.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+            <div class="card-body"  style="color:white";>
+              <p class="card-text"><small class="text-muted">20/08 - 10h07 </small></p>
+              <h5 class="card-title">The Last of Us: Part II</h5>
+              <p class="card-text">Será a Naughty Dog capaz de manter a qualidade da primeira aventura de Joel e Ellie, ou até de superá-la e criar uma obra de arte extraordinária?</p>
+              <a href="tlou.html" class="btn btn-primary btn-block">Visualizar</a>
+            </div>
+        </div>
+      </div>
+
+      <div class="card text-white mb-3 mx-4" style="max-width: 30rem; background-color:#14141f;">
+          <div class="card-body">
+            <img src="imgs/meverick rambo.jpg" style="width:350px;height: 240px">
+            <div class="card-body"  style="color:white";>
+              <p class="card-text"><small class="text-muted">20/08 - 10h07 </small></p>
+              <h5 class="card-title">Rainbow Six - NOVO ATACANTE: MAVERICK</h5>
+              <p class="card-text">Maverick é conhecido pelo trabalho preciso e a mente aguçada, embora ainda permaneça um enigma na Rainbow Six.</p>
+              <a href="rainbow.html" class="btn btn-primary btn-block">Visualizar</a>
+            </div>
+        </div>
+      </div>
+
+   </div>
+      
       <div class="col">
         
-        <div class="card mb-3">
-          <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+        <div class="card">
+          <h4 class="card-title mx-3" style="font-family:Rockwell; font-size: 50px;">Anthem tem lançamento previsto para 2019</h4>
+          <h5 class="text-muted mx-3" style="font-family:Rockwell; font-size: 40px;">Game ganha mais informações sobre mundo aberto</h5>
+          <h5 class="mx-3" style="font-family:Century Gothic;">
+            <i class="fas fa-user"></i> <b>Henrique Palgom</b> | <i class="fas fa-clock"></i> <span class="text-muted">22/08/2018 às 19h45</span>
+          </h5> 
+          <img class="card-img-top" src="imgs/anthem.jpg" alt="Card image cap">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <p class="card-text" style="font-size:25px; font-family: calibri">
+              
+              <b style="font-size:50px;">N</b>ovidades sobre Anthem: manda mais que tá pouco? A BioWare está te ouvindo e, aos poucos, abre o bico sobre a aventura online intergalática de RPG. Mark Darrah, produtor executivo do game, forneceu mais algumas informações sobre a jornada no Twitter. <br><br>
+
+            A primeira delas é que, no modo livre, não há limites de distância entre os jogadores. Caso você esteja numa missão, será transportado "sob certas circunstâncias". Na customização, só boas notícias: diferentes estilos de pintura estarão à disposição, e novas opções são desbloqueadas conforme você joga. Mas não é só isso: a geometria também poderá ser alterada. <br><br>
+
+            <b style="font-family: century gothic;font-size:30px;">2 <i class="far fa-comments"></i></b><br><br>
+
+            <a href="anthem.html" class="btn btn-primary btn-lg">Ver Mais...</a>
+
+          </p>
+            
+            <p class="card-text"><small class="text-muted">Atualizado por último há 3 minutos atrás</small></p>
           </div>
         </div>
-        
+
+        <div class="card my-5">
+          <h4 class="card-title mx-3" style="font-family:Rockwell; font-size: 50px;">CS: GO - Grande Campeonato IEM Katowice de 2019</h4>
+          <h5 class="text-muted mx-3" style="font-family:Rockwell; font-size: 40px;">SK Gaming é uma das favoritas ao título</h5>
+          <h5 class="mx-3" style="font-family:Century Gothic;">
+            <i class="fas fa-user"></i> <b>Paulo Victor</b> | <i class="fas fa-clock"></i> <span class="text-muted">22/08/2018 às 10h30</span>
+          </h5> 
+          <img class="card-img-top" src="imgs/cs.jpg" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text" style="font-size:25px; font-family: calibri">
+              
+              <b style="font-size:50px;">O</b> Campeonato FACEIT de Londres está em andamento, mas nunca é cedo demais para se preparar para o futuro. Hoje temos o prazer de anunciar que o primeiro Grande Campeonato de CS:GO está voltando a Katowice!<br><br>
+
+              <b style="font-family: century gothic;font-size:30px;">2 <i class="far fa-comments"></i></b><br><br>
+
+            <a href="csgo.html" class="btn btn-primary btn-lg">Ver Mais...</a>
+
+          </p>
+            
+            <p class="card-text"><small class="text-muted">Atualizado por último há 3 minutos atrás</small></p>
+          </div>
+        </div>
+      
       </div>
 
       <div class="col-3">
 
-        <div class="card text-white bg-info mb-3 mx-4" style="max-width: 18rem;">
-          <div class="card-header">Header</div>
-          <div class="card-body">
-            <h5 class="card-title">Info card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <div class="card text-white mb-3 mx-4" style="max-width: 25rem; background-color:#14141f;">
+          <div class="card-header text-center bg-dark" style="font-family: century gothic;font-size:25px;border-radius: 50px;">
+            <i class="fas fa-mouse-pointer"></i>
+            Redes Sociais
+          </div>
+          <div class="card-body text-center">
+            <a href="http://facebook.com" target="blank"><img src="imgs/logoface.png" class="mx-3 my-3"></a>
+            <a href="http://instagram.com/pv_hard" target="blank"><img src="imgs/logoinsta.png" class="mx-3 my-3"></a>
+            <a href="http://twitter.com" target="blank"><img src="imgs/logotwitter.png" class="mx-3"></a>
+            <a href="http://orkut.com" target="blank"><img src="imgs/logoorkut.png" class="mx-3"></a>
+
         </div>
         
+      </div>
+
+      <div class="card text-white mb-3 mx-4" style="max-width: 25rem;max-height:50rem;background-color:#14141f;">
+          <div class="card-header text-center bg-dark" style="font-family: century gothic;font-size:25px;border-radius: 50px;">
+            <i class="fas fa-shopping-cart"></i>
+            Anúncios
+          </div>
+          <img src="imgs/anuncio1.jpg" class="mx-3 my-5"><br>
+          <img src="imgs/anuncio2.jpg" class="mx-3 my-1"><br>
+        
+      </div>
+
+      <div class="card text-white mb-3 mx-4" style="max-width: 25rem;max-height:50rem;background-color:#14141f;">
+          <div class="card-header text-center bg-dark" style="font-family: century gothic;font-size:25px;border-radius: 50px;">
+            <i class="fas fa-users"></i>
+            Seus Amigos
+          </div>
+          
+          <div class="card-group my-5">
+            <div class="card">
+              <img class="card-img-top" src="imgs/user9.png" alt="Card image cap">
+              <div class="card-footer">
+              	<div class="col">
+                	<div class="row">
+                		<h5 class="text-muted" style="font-family:rockwell">Bolivão</h5>
+                		</div> 
+                 	<div class="row">
+                 		<i class="fas fa-user-check" style="color:green;"></i>
+                 	</div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="imgs/user10.png" alt="Card image cap">
+              <div class="card-footer">
+              	<div class="col">
+                	<div class="row">
+                		<h5 class="text-muted" style="font-family:rockwell">Bolsomito</h5>
+                		</div> 
+                 	<div class="row">
+                 		<i class="fas fa-user-check" style="color:green;"></i>
+                 	</div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="imgs/user8.png" alt="Card image cap">
+              <div class="card-footer">
+              	<div class="col">
+                	<div class="row">
+                		<h5 class="text-muted" style="font-family:rockwell">Thifany</h5>
+                		</div> 
+                 	<div class="row">
+                 		<i class="fas fa-user-check" style="color:green;"></i>
+                 	</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-group my-1">
+            <div class="card">
+              <img class="card-img-top" src="imgs/user11.png" alt="Card image cap">
+              <div class="card-footer">
+              	<div class="col">
+                	<div class="row">
+                		<h5 class="text-muted" style="font-family:rockwell">Ademiro</h5>
+                		</div> 
+                 	<div class="row">
+                 		<i class="fas fa-star" style="color:yellow;"></i>
+                 	</div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="imgs/user13.png" alt="Card image cap">
+              <div class="card-footer">
+              	<div class="col">
+                	<div class="row">
+                		<h5 class="text-muted" style="font-family:rockwell">Frostbitu</h5>
+                		</div> 
+                 	<div class="row">
+                 		<i class="fas fa-user-check" style="color:green;"></i>
+                 	</div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="imgs/user6.png" alt="Card image cap">
+              <div class="card-footer">
+              	<div class="col">
+                	<div class="row">
+                		<h5 class="text-muted" style="font-family:rockwell">LulaLivre</h5>
+                		</div> 
+                 	<div class="row">
+                 		<i class="fas fa-user-check" style="color:green;"></i>
+                 	</div>
+                </div>
+              </div>
+            </div>
+          </div>
+      
       </div>
       
     </div>
@@ -215,6 +438,23 @@
 </div>
 
 </div>
+
+<nav aria-label="Páginas">
+  <ul class="pagination pagination-lg justify-content-center">
+    <li class="page-item disabled">
+      <a class="page-link" href="#" tabindex="-1">Anterior</a>
+    </li>
+    <li class="page-item active"><a class="page-link" href="index.html">1<span class="sr-only">(current)</span></a></li>
+    <li class="page-item">
+      <a class="page-link" href="pag2.html">2</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="pag3.html">3</a></li>
+    <li class="page-item"><a class="page-link" href="pag4.html">4</a></li>
+    <li class="page-item">
+      <a class="page-link" href="pag2.html">Próxima</a>
+    </li>
+  </ul>
+</nav>
 
 
 
@@ -238,13 +478,12 @@
     </script>
   </body>
   <!-- Modal -->
-            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal fade" id="buttonModal" tabindex="-1" role="dialog" aria-labelledby="buttonModalLabel" aria-hidden="true">
               <div class="modal-dialog" role="document">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h4 class="d-flex justify-content-between align-items-center mb-3 modal-title">
-                          <span class="text-muted">Seu Carrinho</span>
-                          <span class="badge badge-secondary badge-pill mx-3">2</span>
+                    <h4 class="d-flex justify-content-between align-items-center mb-3 modal-title" style="font-family: rockwell;">
+                           <span class="text-center">Bem Vindo, <b>PreHistoricus!</b></span>
                         </h4>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
@@ -252,59 +491,46 @@
                   </div>
                   <div class="modal-body">
                     
-                    <div class="row ">
-            
-                      <div class="col-md-12 order-md-6 mb-12">
-                        
-                        <ul class="list-group mb-3">
-                          
-                          <li class="list-group-item d-flex justify-content-between lh-condensed">
-                            <div>
-                              <h6 class="my-0">Forza Horizon 3</h6>
-                              <small class="text-muted">Pacote de Carros Lamborghini</small>
-                            </div>
-                            <span class="text-muted">R$50,00</span>
-                          </li>
-
-                          <li class="list-group-item d-flex justify-content-between lh-condensed">
-                            <div>
-                              <h6 class="my-0">Fifa 18</h6>
-                              <small class="text-muted">Edição ICON + 2.000 Coins</small>
-                            </div>
-                            <span class="text-muted">R$80,00</span>
-                          </li>
-
-                          
-                          <li class="list-group-item d-flex justify-content-between bg-light">
-                            <div class="text-success">
-                              <h6 class="my-0">Código Promocional</h6>
-                              <small>JDGRT-HLK4A-JHUIT-3DPKL-ADFR6K</small>
-                            </div>
-                            <span class="text-success">-R$20,00</span>
-                          </li>
-                          <li class="list-group-item d-flex justify-content-between">
-                            <span>Total (BRL)</span>
-                            <strong>R$110,00</strong>
-                          </li>
-                        </ul>
-
-                        <form class="card p-2">
-                          <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Código Promocional">
-                            <div class="input-group-append">
-                              <button type="submit" class="btn btn-success">Resgatar</button>
-                            </div>
-                          </div>
-                        </form>
-                        <div class="modal-footer">
-                    <a href="carrinho.html" type="button" class="btn btn-primary btn-lock">Confirmar</a>
-                  </div>
-                      </div>
-                  </div>
-                 
+    <div class="text-center">
+      <h1 style="font-family: Century Gothic;">Seu Perfil</h1>
+    </div>
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="imgs/user3.png" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="imgs/user10.png" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="imgs/user6.png" alt="Third slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+        </div>
+      <div class="form-row mx-2 my-2 align-items-center"> 
+        <div class="col-6">
+          <a href="#" class="btn btn-success btn-lg "><i class="fas fa-cog"> </i> Editar Perfil</a>
+        </div>
+        <div class=col>
+          <a href="#" class="btn btn-warning btn-lg btn-block"><i class="fas fa-coins"> </i>  Fazer Doação</a>
+        </div>
+      </div>
+      <div class="form-row my-4">
+        <a href="#" class="btn btn-block btn-danger btn-lg"><i class="fas fa-times-circle"></i> Sair</a>
+      </div>
                   
                 
                 </div>
               </div>
             </div>
+          </div>
+
 </html>
